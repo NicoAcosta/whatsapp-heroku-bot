@@ -1,4 +1,5 @@
 module.exports = {
+	autoClose: 0,
 	browserArgs: [
 		'--disable-web-security',
 		'--no-sandbox',
