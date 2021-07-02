@@ -18,45 +18,50 @@ git clone https://github.com/YOUR_GITHUB_USER_NAME/whatsapp-heroku-bot
 cd whatsapp-heroku-bot
 ```
 
-4.  If you haven't installed [Heroku](https://www.heroku.com/home) CLI yet, do it [here](https://devcenter.heroku.com/articles/heroku-cli).
+4.  (Optional) Install npm dependencies. Recommended if you're going to use `venom-bot`'s features.
+```console
+npm install
+```
 
-5.  If you haven't logged in yet:
+5.  If you haven't installed [Heroku](https://www.heroku.com/home) CLI yet, do it [here](https://devcenter.heroku.com/articles/heroku-cli).
+
+6.  If you haven't logged in yet:
 ```console
 heroku login
 ```
 
-6.  Create a new Heroku app
+7.  Create a new Heroku app
 ```console
 heroku create your-app-name
 ```
 
-7.  Add [@heroku](https://github.com/heroku)'s `nodejs` buildpack. Docs [here](https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-nodejs).
+8.  Add [@heroku](https://github.com/heroku)'s `nodejs` buildpack. Docs [here](https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-nodejs).
 ```console
 heroku buildpacks:set heroku/nodejs
 ```
 
-8.  Add [@jontewks](https://github.com/jontewks)'s `puppeteer` buildpack. Docs [here](https://elements.heroku.com/buildpacks/jontewks/puppeteer-heroku-buildpack).
+9.  Add [@jontewks](https://github.com/jontewks)'s `puppeteer` buildpack. Docs [here](https://elements.heroku.com/buildpacks/jontewks/puppeteer-heroku-buildpack).
 ```console
 heroku buildpacks:add jontewks/puppeteer
 ```
 
-9.  Add a remote to your repo.
+10.  Add a remote to your repo.
 ```console
 heroku git:remote -a your-app-name
 ```
 
-10. Deploy your app to Heroku. This might take a while.
+11. Deploy your app to Heroku. This might take a while.
 ```console
 git push heroku main
 ```
 
-11. Do
+12. Do
 ```console
 heroku logs
 ```
 until you see the QR code. Scan it from `WhatsApp` in your phone.
 
-12. It should be working!
+13. It should be working!
 
 
 
