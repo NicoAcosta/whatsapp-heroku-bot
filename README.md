@@ -1,7 +1,6 @@
 # WhatsApp Heroku Bot
 
-Uses [venom-bot](https://github.com/orkestral/venom)
-
+Uses [Venom Bot](https://github.com/orkestral/venom) library.
 
 
 ## Deploying to heroku
@@ -98,4 +97,4 @@ npm start
 7. It should be working!
 
 
-Venom bot documentation [here](https://orkestral.github.io/venom/index.html).
+[Venom Bot](https://github.com/orkestral/venom) docs [here](https://orkestral.github.io/venom/index.html).
