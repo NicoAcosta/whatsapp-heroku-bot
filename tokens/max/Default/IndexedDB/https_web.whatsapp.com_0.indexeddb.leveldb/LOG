@@ -8,3 +8,14 @@
 2021/11/24-18:51:02.870 828 Generated table #33@1: 13755 keys, 645012 bytes
 2021/11/24-18:51:02.870 828 Compacted 1@1 + 1@2 files => 645012 bytes
 2021/11/24-18:51:02.871 828 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/11/24-20:59:54.646 a5f Level-0 table #35: started
+2021/11/24-20:59:54.783 a5f Level-0 table #35: 1209042 bytes OK
+2021/11/24-20:59:54.784 a5f Delete type=0 #31
+2021/11/24-20:59:54.785 a5f Delete type=2 #32
+2021/11/24-20:59:54.785 a5f Delete type=2 #29
+2021/11/24-21:00:02.894 a5e Compacting 1@1 + 1@2 files
+2021/11/24-21:00:03.167 a5e Generated table #36@1: 22184 keys, 1054679 bytes
+2021/11/24-21:00:03.168 a5e Compacted 1@1 + 1@2 files => 1054679 bytes
+2021/11/24-21:00:03.168 a5e compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/11/24-21:00:03.169 a5e Delete type=2 #33
+2021/11/24-21:00:03.169 a5e Delete type=2 #35
