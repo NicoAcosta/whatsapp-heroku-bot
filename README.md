@@ -1,100 +1,19 @@
-# WhatsApp Heroku Bot
+# Messenger Platform Quick Start
 
-Uses [Venom Bot](https://github.com/orkestral/venom) library.
+Welcome to your first step toward building awesome Messenger apps!
 
+This project contains the code for a simple webhook you can use to get started using the Messenger Platform.
 
-## Deploying to heroku
+The code here mirrors what is in our [webhook set up guide](https://developers.facebook.com/docs/messenger-platform/getting-started/webhook-setup), and may be used as the starting point for doing the [Messenger Platform quick start tutorial](https://developers.facebook.com/docs/messenger-platform/getting-started/quick-start).
 
-1.  Fork this repo
+## Additional Resources
 
-2.  Clone it locally
-```console
-git clone https://github.com/YOUR_GITHUB_USER_NAME/whatsapp-heroku-bot
-```
+Interested in learning more about the Messenger Platform? Check out these resources:
 
-3.  Enter the folder
-```console
-cd whatsapp-heroku-bot
-```
+- [**Webhook set up guide**](https://developers.facebook.com/docs/messenger-platform/getting-started/webhook-setup): The walkthrough for the code in this project.
 
-4.  (Optional) Install npm dependencies. Recommended if you're going to use `venom-bot`'s features.
-```console
-npm install
-```
+- [**App set up guide**](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup): Instructions for setting up a Facebook app for use with the Messenger Platform, and hooking it up to this webhook.
 
-5.  If you haven't installed [Heroku](https://www.heroku.com/home) CLI yet, do it [here](https://devcenter.heroku.com/articles/heroku-cli).
+- [**Quick start tutorial**](https://developers.facebook.com/docs/messenger-platform/getting-started/quick-start): Build your first Messenger app by remixing this project and following our quick start tutorial.
 
-6.  If you haven't logged in yet:
-```console
-heroku login
-```
-
-7.  Create a new Heroku app
-```console
-heroku create your-app-name
-```
-
-8.  Add [@heroku](https://github.com/heroku)'s `nodejs` buildpack. Docs [here](https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-nodejs).
-```console
-heroku buildpacks:set heroku/nodejs
-```
-
-9.  Add [@jontewks](https://github.com/jontewks)'s `puppeteer` buildpack. Docs [here](https://elements.heroku.com/buildpacks/jontewks/puppeteer-heroku-buildpack).
-```console
-heroku buildpacks:add jontewks/puppeteer
-```
-
-10.  Add a remote to your repo.
-```console
-heroku git:remote -a your-app-name
-```
-
-11. Deploy your app to Heroku. This might take a while.
-```console
-git push heroku main
-```
-
-12. Do
-```console
-heroku logs
-```
-until you see the QR code. Scan it from `WhatsApp` in your phone.
-
-13. It should be working!
-
-
-
-## Running locally
-
-1.  Fork this repo
-
-2.  Clone it locally
-```console
-git clone https://github.com/YOUR_GITHUB_USER_NAME/whatsapp-heroku-bot
-```
-
-3.  Enter the folder
-```console
-cd whatsapp-heroku-bot
-```
-
-4.  Install npm dependencies
-```console
-npm install
-```
-
-5.  Run index.js
-```
-node index.js
-```
-or
-```console
-npm start
-```
-
-6. Wait until you see the QR code. Scan it from `WhatsApp` in your phone.
-
-7. It should be working!
-
-
-[Venom Bot](https://github.com/orkestral/venom) docs [here](https://orkestral.github.io/venom/index.html).
+- [**Docs Docs Docs!**](https://developers.facebook.com/docs/messenger-platform/)

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "magicart-wvtlas",
+  "private_key_id": "03a6185b7debc343f22cd1b473347fafc40b897e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDO4B0Dk8tdkocp\nzyE8KyhNAt+QJtoD3hal3zTarjDWLFPhluK5due2mZDI9XcAp2gbmqfAiLBGyU3w\nAWaj5yQ0uYrgJVxUG2kQN2zOLHUwu5Cs6RWTiAnD5zyXB6bJY4a8iDgSSPM8yDsx\nNXdw4O4svDUVjclRmgSzs0cLfV+uKg7DPtDNJr55foR8iJQZ3ySm2B9GxrpZjGwQ\nIVFk1c6VIdmSr/lqB6/TGk7WX06EHU5+AJ+PbzOH/Y5A1Iq9JrxT3kowbUMO2sCG\nS7lgzQ6WCzi01TXeggfgA19924PSEN54bdpHSV9f+POpi0HMZsJ12e4bHVzyvi4h\n9JVVdVgTAgMBAAECggEAF0896wBFItGhdH7dLM1kE2v7yrSbTgzrxQbQYBojxeNl\naX65zydBq9vDv5DrjAxQzljFBrb1aGnC5ARpueq6XqJ6rmTR8WbL622DT1EdEepL\nE+CIyNXEMT77HxKtTUsZ4bZWMwvl3vcPYa0M5zrA5hN9cQ9HxsUG5e87qw9rr3uO\nNgnRGDQ/GvkW5eMnVYVBfV4VyFvJEY6xf1zwXqqw5UM0SQlC0xOT0l2aiiRkIx83\nPJhe3eEoP0HpjTUrphr+McAGsLC2OiQP7jbprRDSW++cdG+pRb6DD1Siz/GhmliO\nnSMDucqL9mMRi7ETbELyZNWVez4OkCicOsG+UEmbAQKBgQD+wJ0sMpPtNz7anCB1\nNPFI1OtbYBxnBhq097K6YZS0jUOWeK8X9kGXKf5L7tsq1XtkqB2+d2w5xV7FdXcV\nsdGi/tZYhXHzU8de3sMjVduURYsPA3z4ybLlItxzxf7inWC1bLr7e3z6A5D52cWC\nyVY7P6Jh2EtA+Xen5CkiqSPggQKBgQDP43m5VaRHg+cyAc1AR34uYKf6jpyvqHVX\nhn/RTaNdrmAHTXF/qk3fC1r1zA+/zxqpQW2shFM9O54Y/SV5Luz9/O6ZFuaYKzpq\nRvQ1/XOkMLMWkOE+uzYeM+xuUMdNLtXSnhF76Bbwzzm4MYO+8UdTvMaZph1DwOkv\nSAXQmWRukwKBgQDBPfi7mw4tBhgumfnhDqzss15o7On+mFnP5ojz6qtzniijzp37\nDjjI4vjcPq6PumqkewY9AbfdxsLSA/22PjGoc6jCc09x5Z45b78UYb9zpKEMXXgB\n/HYwbBZP1+Q1oG3IkVbxBsZRnDzv2eqCABniTa3ujLTg75t9hoxRl334gQKBgBIc\nAcWIVVg5gFFV4NhhofdOSjPEapfOt/IY8Fd+SOXnQ8w/Dc0OO9xbM+BHl3OhCfSG\nk5Q8rred0ubgXnxQ/yoc93f0i7/jvCH37lwpqQI7j84+brC1RECbS1RMyx/JHa1M\nQb+mdyEhHCkUfyKKCCmePzqxQsldK7MHtiH2ys3rAoGBALP6YFLt4vCLssk/EgDe\nOp2bAQJUIWVeXO++V51wNrbLH6S/5/f6KjqTL1Dt8RCi/vnnTXWDIqd7mO9AeLqA\n087guDZjIQ9YMpFZWl5D4VOPW5bDH0cgugmzkmGphl96fPhDAI/VQTRZAopSf+RO\n9H/9F0j4sfghLEsP2DvxavOm\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-ywtnec@magicart-wvtlas.iam.gserviceaccount.com",
+  "client_id": "111346046026552949300",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-ywtnec%40magicart-wvtlas.iam.gserviceaccount.com"
+}

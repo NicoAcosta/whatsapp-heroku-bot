@@ -1,0 +1,6 @@
+2021/11/24-18:49:41.139 823 Reusing MANIFEST /app/tokens/max/Default/Local Storage/leveldb/MANIFEST-000001
+2021/11/24-18:49:41.139 823 Recovering log #3
+2021/11/24-18:49:41.140 823 Reusing old log /app/tokens/max/Default/Local Storage/leveldb/000003.log 
+2021/11/24-19:22:41.146 827 Level-0 table #5: started
+2021/11/24-19:22:41.163 827 Level-0 table #5: 22355 bytes OK
+2021/11/24-19:22:41.171 827 Delete type=0 #3

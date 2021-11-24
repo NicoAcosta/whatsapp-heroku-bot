@@ -1,28 +1,30 @@
 {
-  "name": "whatsapp-heroku-bot",
+  "name": "messenger-quick-start",
   "version": "1.0.0",
-  "description": "WhatsApp heroku bot",
-  "main": "index.js",
+  "description": "An example webhook for Facebook Messenger quick start tutorial.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NicoAcosta/whatsapp-heroku-bot.git"
+    "url": "https://github.com/fbsamples/messenger-platform-samples.git"
   },
-  "keywords": [
-    "WhatsApp",
-    "bot",
-    "Heroku"
-  ],
-  "author": "Nicolás Acosta",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NicoAcosta/whatsapp-heroku-bot/issues"
-  },
-  "homepage": "https://github.com/NicoAcosta/whatsapp-heroku-bot#readme",
+  "author": "Facebook",
+  "license": "ISC",
   "dependencies": {
-    "venom-bot": "^3.0.20"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "venom-bot": "^4.0.3",
+    "file-system": "^2.2.2",
+    "@google-cloud/dialogflow": "^4.5.0",
+    "uuid": "^8.3.2",
+    "referral-code-generator": "^1.0.8",
+    "firebase-admin": "^10.0.0",
+    "rss-parser": "^3.12.0"
+  },
+  "engines": {
+    "node": "14"
   }
 }
